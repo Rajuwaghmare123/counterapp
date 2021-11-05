@@ -25,13 +25,16 @@
             align-items: center;
             flex-direction: column;
         }
+        h1{
+            font-size: 40px;
+        }
         .counter{
             font-size: 60px;
             color: red;
             margin: 10px 0px;
         }
         button{
-            font-size: 20px;
+            font-size: 30px;
             padding: 10px 20px;
             margin: 10px;
         }
@@ -40,6 +43,7 @@
 <body>
     <div class="main">
     <div class="container">
+        <h1>Counter</h1>
         <span class="counter">0</span>
         <div>
             <button id="minus" onclick="changeCounter(minus)">-</button>
